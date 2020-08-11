@@ -14,7 +14,7 @@ namespace SimpleAPI.Test
         public void Something()
         {
             var returnValue = controller.Get().Count();
-            Assert.Equal(5, returnValue);
+            Assert.Equal(6, returnValue);
         }
 
 
